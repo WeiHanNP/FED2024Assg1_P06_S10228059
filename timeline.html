@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Timeline</title>
+</head>
+<body class ="index">
+    <nav>
+      <div class="logo">
+        <img href="index.html" src="resources\maydaylogo.jpg" alt="logo" />
+        <h1 href="index.html">MayDay</h1>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Albums</a>
+        </li>
+        <li>
+          <a href="#">Members</a>
+        </li>
+        <li>
+          <a href="#" class = "active">Timeline</a>
+        </li>
+        <li>
+          <a href="#">Awards</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
+    <div class="menubar">
+      <ul>
+        <li>
+          <a href="#">Albums</a>
+        </li>
+        <li>
+          <a href="#">Members</a>
+        </li>
+        <li>
+          <a href="#">Timeline</a>
+        </li>
+        <li>
+          <a href="#">Awards</a>
+        </li>
+      </ul>
+    </div>
+    <article class = "tl-flex-info">
+      <h1 class = "tlh1">Timeline</h1>
+      <div>
+        <h2>1999</h2>
+        <p>Mayday was formed in 1999 when Ashin, Monster, Stone, Masa, 
+          and Guan You were studying at The Affiliated Senior High School of National Taiwan Normal University. 
+          The members of Mayday were childhood friends and came from the same elementary school. They were initially called So Band, 
+          but after discovering a band in Japan with the same name, they changed the name to Mayday, which means "help" in Chinese. 
+          The band performed in pubs and released an album in 2000.</p>
+      </div>
+      <div>
+        <h2>2000</h2>
+        <p>Mayday released their first album, Mayday's First Album, in 2000. 
+          The album was well-received and the band was nominated for Best Band at the 11th Golden Melody Awards. 
+          The band also held their first concert at the Taipei Municipal Stadium, which was attended by 20,000 fans.</p>
+      </div>
+      <div>
+        <h2>2001</h2>
+        <p>Mayday released their second album, Viva Love, in 2001. 
+          The album was a commercial success and the band won the Best Band award at the 12th Golden Melody Awards. 
+          The band also held their first concert in Hong Kong, which was attended by 10,000 fans.</p>
+      </div>
+      <div>
+        <h2>2002</h2>
+        <p>Mayday released their third album, People Life, Ocean Wild, in 2002. 
+          The album was a critical and commercial success and the band won the Best Band award at the 13th Golden Melody Awards. 
+          The band also held their first concert in Singapore, which was attended by 5,000 fans.</p>
+      </div>
+      <div>
+        <h2>2003</h2>
+        <p>Mayday released their fourth album, Time Machine, in 2003. 
+          The album was a commercial success and the band won the Best Band award at the 14th Golden Melody Awards. 
+          The band also held their first concert in Malaysia, which was attended by 8,000 fans.</p>
+      </div>
+      <div>
+        <h2>2004</h2>
+        <p>Mayday released their fifth album, 5th Mayday, in 2004. 
+          The album was a critical and commercial success and the band won the Best Band award at the 15th Golden Melody Awards. 
+          The band also held their first concert in China, which was attended by 15,000 fans.</p>
+      </div>
+      <div>
+        <h2>2005</h2>
+        <p>Mayday released their sixth album, Born to Love, in 2005. 
+          The album was a commercial success and the band won the Best Band award at the 16th Golden Melody Awards. 
+          The band also held their first concert in Japan, which was attended by 3,000 fans.</p>
+      </div>
+
+    </article>
+
+    <script>
+      const mobileNav = document.querySelector(".hamburger");
+const navbar = document.querySelector(".menubar");
+
+const toggleNav = () => {
+  navbar.classList.toggle("active");
+  mobileNav.classList.toggle("hamburger-active");
+};
+mobileNav.addEventListener("click", () => toggleNav());
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+    </script>
+</body>
+</html>
