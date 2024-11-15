@@ -378,7 +378,16 @@ img {
   padding: 10px;
   background-color: #ffffff;
   border-radius: 10%;
+  border: 3px solid #54b9f3;
   
+  
+  
+}
+.tl-flex-info div :hover{
+  background-color: #000000;
+  color: #ffffff;
+  border: 3px solid #54b9f3;
+  transition: 0.1s;
   
 }
 
@@ -395,15 +404,16 @@ img {
 
   .tl-flex-info div::before {
     content: '';
-    position: absolute;
     left: 47px;
     top: 0;
     bottom: 0;
     width: 4px;
-    height: 100%;
-    background-color: #ffffff;
+    height:100%;
+    background: linear-gradient(to bottom, #54b9f3 0%, #f4f6f9 100%);
     z-index: -3;
     position:fixed;
+    
+  
   }
   
 
@@ -432,6 +442,77 @@ img {
   }
   
 }
+
+/*timeline page ends here*/
+
+/*award page starts here*/
+.aw-spacer{
+  height: 70px;
+  width: 100%;
+  background-color: transparent;
+
+}
+
+.aw-flex-container {
+  
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: inline-flex;
+  transform: translateZ(0);
+  }
+
+  
+
+
+.aw-flex-container div{
+  background-color: transparent;
+  width: 280px;
+  height: 280px;
+  margin: 10px;
+  border-radius: 5px;
+  overflow:visible;
+  text-align: center;
+  
+  
+}
+
+.aw-flex-container div img{
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  z-index: -1;
+}
+.aw-flex-container div h2{
+  color: #fafafa;
+  font-size: 20px;
+
+  
+}
+.aw-flex-container div p {
+  color: #ffffff;
+  
+}
+
+#aw-nav{
+  padding: 5px 5%;
+  display: flex;
+  background: #000;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  overflow:visible;
+  
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  z-index: 1;
+
+}
+
   
 
 
