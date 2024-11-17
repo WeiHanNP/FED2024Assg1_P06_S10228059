@@ -446,12 +446,62 @@ img {
 /*timeline page ends here*/
 
 /*award page starts here*/
+
+.aw-section, .aw-article-div{
+  display:inline-block;
+  width: 100%;
+  height: 100%;
+}
+
 .aw-spacer{
   height: 70px;
   width: 100%;
   background-color: transparent;
 
 }
+
+.aw-section img{
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin-left: 5px;
+  z-index: -1;
+  float: center;
+  border-radius: 2%;
+}
+
+.aw-section
+{
+  float: left;
+  width: 70%;
+  height: auto;
+  background-color: transparent
+}
+.aw-section h1{
+  text-align: center;
+  font-size: 30px;
+  color: #ffeb53;
+  margin-top: 40px;
+  padding: 9%;
+  position: sticky;
+  top: 0;
+  float: left;
+}
+
+.aw-section p{
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.aw-article-div{
+  float: right;
+  width: 30%;
+}
+
 
 .aw-flex-container {
   
