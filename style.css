@@ -342,8 +342,6 @@ img {
   padding: 10px;
   position: sticky;
   top: 0;
-  
-  
 }
 
 .tl-flex-info{
@@ -619,6 +617,74 @@ img {
 
   }
 }
+
+/*award page ends here*/
+
+/*Members page starts here*/
+
+.mb-flex-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  align-content:space-around;
+  justify-content: center;
+  position:fixed;
+}
+
+.mb-flex-container article{
+  background-color: transparent;
+  width:  18%;
+  height: 40%;
+  margin: 7px;
+  border-radius: 5px;
+  overflow:visible;
+  
+}
+.mb-flex-container article h1{
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #000000;
+  border-radius: 10%;
+  border: 3px solid #54b9f3;
+}
+
+.mb-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  z-index: -1;
+}
+.mb-article-p {
+  display: hidden;
+  color: transparent;
+}
+
+.mb-flex-container article img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+
+.mb-flex-container article :hover{
+  background-color: #000000;
+  color: #ffffff;
+  border: 3px solid #54b9f3;
+  transition: 0.1s;
+}
+
+
+
   
 
 
