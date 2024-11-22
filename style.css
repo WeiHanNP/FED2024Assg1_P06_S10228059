@@ -683,6 +683,76 @@ img {
   transition: 0.1s;
 }
 
+@media(max-width: 576px){
+  .mb-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+  }
+
+  .mb-flex-container article {
+    background-color: transparent;
+    width: 60%;
+    height: 300px;
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+
+  }
+
+  .mb-article article:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 3px solid #54b9f3;
+    transition: 0.1s;
+    z-index: 1;
+    
+  }
+
+
+  
+}
+
+/*Members page ends here*/
+
+/*idv member page starts here*/
+.idv-section1{
+  width: 15%;
+  height: 700px;
+  background-color: rgb(53, 50, 50);
+  float: left;
+  
+}
+
+.idv-section1 img{
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  z-index: -1;
+  border-radius: 0%;
+  
+}
+
+.idv-section2{
+  width: 75%;
+  height: 700px;
+  background-color: rgb(53, 50, 50);
+  color: #ffffff;
+  float : right;
+  margin-left: 5%; 
+  margin-right: 5%;
+  
+}
+
+
+
 
 
   
