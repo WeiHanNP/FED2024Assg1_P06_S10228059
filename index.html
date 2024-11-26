@@ -3,10 +3,15 @@
 <html>
 
 <head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Anton&family=Jaro:opsz@6..72&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Anton&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-  
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Home</title>
 </head>
@@ -91,63 +96,33 @@
         </div>
         <br>
       
-        <h1> Introduction</h1>
+        <h1 id = "idx-introduction">Introduction</h1>
     <article class = "flex-contain">
-      <div><img src="resources\Homepage\intro1dot1.jpg" alt="MayDay band logo" />
-        
-        <p><bold>Formation and Early Days</bold> <br> 五月天(Mayday) was formed in 1997 in Taipei, Taiwan, by five university friends who loved rock music. The members are Ashin (vocals), Monster (guitar), Stone (guitar), Masa (bass), and Guan You (drums).
+      <div id = "idx-flex-first"><img src="resources\Homepage\intro1dot1.jpg" alt="MayDay band logo" />
+        <h1>Formation and Early Days</h1>
+        <p>五月天(Mayday) was formed in 1997 in Taipei, Taiwan, by five university friends who loved rock music. The members are Ashin (vocals), Monster (guitar), Stone (guitar), Masa (bass), and Guan You (drums).
 
         </p>
 
       </div>
 
-      <div><img src="resources\Homepage\intro2.jpg" alt="Musical Style and Influence" />
-        <p>Musical Style and Influence<br> Known for their blend of alternative rock, pop rock, and ballads, Mayday’s lyrics often center around themes of youth, love, dreams, and social issues. Their sound has been compared to Japanese rock and Western alternative bands, often drawing influence from groups like The Beatles and U2.</p></div>
+      <div id = "idx-flex-second"><img src="resources\Homepage\intro2.jpg" alt="Musical Style and Influence" />
+        <h1>Musical Style and Influence</h1>
+        <p>Known for their blend of alternative rock, pop rock, and ballads, Mayday’s lyrics often center around themes of youth, love, dreams, and social issues. Their sound has been compared to Japanese rock and Western alternative bands, often drawing influence from groups like The Beatles and U2.</p></div>
         
-      <div><img src="resources\Homepage\intro3.jpg" alt="Cultural Impact" /><p>Cultural Impact<br> Often referred to as the “Chinese Beatles,” Mayday is considered one of the most influential bands in the Mandarin-speaking world. They have a massive fanbase across Taiwan, Hong Kong, Mainland China, Malaysia, Singapore, and beyond, and their songs are frequently used to express the thoughts and feelings of young Chinese-speaking people.</p></div>
+      <div id = "idx-flex-third">
+        <img src="resources\Homepage\intro3.jpg" alt="Cultural Impact" />
+        <h1>Cultural Impact</h1>
+        <p>Often referred to as the “Chinese Beatles,” Mayday is considered one of the most influential bands in the Mandarin-speaking world. They have a massive fanbase across Taiwan, Hong Kong, Mainland China, Malaysia, Singapore, and beyond, and their songs are frequently used to express the thoughts and feelings of young Chinese-speaking people.</p></div>
         
-      <div><img src="resources\Homepage\intro4.png" alt="Achievements and Legacy" /><p>Achievements and Legacy<br> Mayday has received multiple Golden Melody Awards (often dubbed the "Grammys of Taiwan") and has sold out concerts at major venues, including Taipei Arena and Tokyo's Nippon Budokan. Their large-scale tours often feature impressive visual effects, drawing fans from all over Asia to celebrate their music and message.</p></div>
+      <div id = "idx-flex-forth"><img src="resources\Homepage\intro4.png" alt="Achievements and Legacy" />
+        <h1>Achievements and Legacy</h1>
+        <p>Mayday has received multiple Golden Melody Awards (often dubbed the "Grammys of Taiwan") and has sold out concerts at major venues, including Taipei Arena and Tokyo's Nippon Budokan. Their large-scale tours often feature impressive visual effects, drawing fans from all over Asia to celebrate their music and message.</p></div>
         
-      <div><img src="resources\Homepage\intro5.jpg" alt="Philanthropic Efforts" /><p>Philanthropic Efforts: Mayday is actively involved in charitable and social causes. They’ve participated in various benefit concerts and have used their platform to support disaster relief efforts, environmental causes, and public health awareness campaigns. Their commitment to giving back has further endeared them to fans, enhancing their reputation as a band that genuinely cares about its community.</p></div>
+      <div id = "idx-flex-fifth"><img src="resources\Homepage\intro5.jpg" alt="Philanthropic Efforts" />
+        <h1>Philanthropic Efforts</h1>
+        <p>Mayday is actively involved in charitable and social causes. They’ve participated in various benefit concerts and have used their platform to support disaster relief efforts, environmental causes, and public health awareness campaigns. Their commitment to giving back has further endeared them to fans, enhancing their reputation as a band that genuinely cares about its community.</p></div>
     </article>
-
-    <script>
-        const mobileNav = document.querySelector(".hamburger");
-const navbar = document.querySelector(".menubar");
-
-const toggleNav = () => {
-  navbar.classList.toggle("active");
-  mobileNav.classList.toggle("hamburger-active");
-};
-mobileNav.addEventListener("click", () => toggleNav());
-
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
