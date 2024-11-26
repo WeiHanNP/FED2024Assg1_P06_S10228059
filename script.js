@@ -37,3 +37,22 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 //slideshows above
+
+//album below
+function albumPage(){
+  let album = document.getElementsByClassName("album");
+    for (i = 0; i < album.length; i++) {
+      album[i].style.display = "none";  
+    }
+    album[0].style.display = "block";
+  }
+
+
+function changeAlbum(n){
+  let i;
+  let album = document.getElementsByClassName("album");
+  for (i = 0; i < album.length; i++) {
+    album[i].style.display = "none";  
+  }
+  album[n].style.display = "block";  
+}
