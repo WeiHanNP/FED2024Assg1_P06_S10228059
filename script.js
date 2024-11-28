@@ -50,17 +50,20 @@ showSlides();
 
 //slideshows above
 //homepage below
-
+blurbackground();
 function blurbackground(){
-  const blurDiv = document.querySelector(".blur");
+  const blurDivs = document.querySelectorAll(".blur");
 
-  blurDiv.addEventListener("mouseover", () => {
-    document.body.style.backdropFilter = "blur(7px)";
+  blurDivs.forEach(blurDiv => {
+    blurDiv.addEventListener("mouseover", () => {
+      document.body.style.backdropFilter = "blur(7px)";
+    });
+
+    blurDiv.addEventListener("mouseout", () => {
+      document.body.style.backdropFilter = "none";
+    });
   });
 
-  blurDiv.addEventListener("mouseout", () => {
-    document.body.style.backdropFilter = "none";
-  });
 }
   
   

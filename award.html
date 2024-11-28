@@ -129,25 +129,5 @@
   
     
 </body>
-<script>
-        const mobileNav = document.querySelector(".hamburger");
-const navbar = document.querySelector(".menubar");
-
-const toggleNav = () => {
-  navbar.classList.toggle("active");
-  mobileNav.classList.toggle("hamburger-active");
-};
-mobileNav.addEventListener("click", () => toggleNav());
-
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-</script>
+<script src="script.js"></script>
 </html>

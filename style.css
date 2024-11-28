@@ -737,6 +737,8 @@ img {
   white-space: nowrap;
   display: inline-flex;
   transform: translateZ(0);
+  position: static;
+  
   }
 
   
@@ -856,11 +858,13 @@ img {
 
   display: flex;
   flex-wrap: wrap;
-  height: 100%;
+  height: 90vh;
   width: 100%;
   align-content:space-around;
   justify-content: center;
-  position:fixed;
+  position:static;
+  
+  
 }
 
 .mb-flex-container article{
@@ -869,7 +873,7 @@ img {
   height: 40%;
   margin: 7px;
   border-radius: 5px;
-  overflow:visible;
+  overflow:visible; 
   
 }
 .mb-flex-container article h1{
@@ -954,9 +958,10 @@ img {
 .idv-whole-page{
   width: 90%;
   margin: auto;
-  height: auto;
+  height: 100%;
   background-color: transparent;
   display: flex;
+  flex-wrap: wrap;
   
   
 }
@@ -964,7 +969,7 @@ img {
 
 .idv-section1{
   width: 15%;
-  height: 700px;
+  height: 100%;
   background-color: transparent;
   float: left;
   color: #ffffff;  
@@ -1057,13 +1062,14 @@ img {
 @media ( max-width: 576px){
   .idv-section1{
     width: 100%;
-    height: max-content;
+    height: auto;
     background-color: transparent;
     align-items: center;
     color: #ffffff;  
     border-bottom-right-radius: 5px;
     overflow: hidden;
     text-align: center;
+    
     
     
   }
@@ -1106,6 +1112,10 @@ img {
     margin-left: 5%; 
     margin-right: 5%;
     border-radius: 5px;
+    margin: 0 auto;
+    display: inline;
+    position: relative;
+    margin-bottom: 120vh; 
     
     
   }
@@ -1127,7 +1137,7 @@ img {
   #idv-container-section2{
     display:flex;
     flex-wrap: wrap;
-    height: 100%;
+    height: auto;
     width: 100%;
     align-content:space-between;
     
@@ -1243,9 +1253,9 @@ img {
   flex-wrap: wrap;
   height: 100%;
   width: 100%;
-  align-content:space-between;
+  align-content:space-evenly;
   justify-content: center;
-  position:relative;
+  
 }
 
 
@@ -1258,6 +1268,7 @@ img {
   border-radius: 5px;
   overflow:visible;
   text-align: center;
+  
   
   
 }
@@ -1288,8 +1299,7 @@ img {
   z-index: -1;
   border-radius: 0%;
   float: left;
-  
-  position: relative;
+ 
 }
 
 .al-iframe iframe{
@@ -1439,21 +1449,19 @@ ol.alternating-colors {
 }
 
 }
+footer{
+  margin-top: auto;
+}
 
-.footer-section-about{
+
+.footer-content{
+  background-color: black;
+  height: min-content;
   width: 100%;
-  height: 100%;
-  background-color: transparent;
-  color: #ffffff;  
-  overflow: hidden;
-  text-align: center;
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-
+  height: 80px;
   
 }
+
 
 .footer-section-links ul{
   list-style: none;
@@ -1462,15 +1470,22 @@ ol.alternating-colors {
   align-items: center;
   padding: 0;
   color: aliceblue;
-
+  
 
   
 
 }
+
+.footer-section-links{
+  height: min-content;
+}
+
+
 .footer-section-links ul li{
   margin-left: 3rem;
-  
   text-decoration: none;
+  margin-right: 90px;
+  margin-top: 25px;
 
 
 }
@@ -1483,6 +1498,7 @@ ol.alternating-colors {
   z-index: -1;
   border-radius: 0%;
   float: left;
+  
 
 }
 
@@ -1492,59 +1508,60 @@ ol.alternating-colors {
   color: #ffffff;
   font-size: 95%;
   font-weight: 400;
-  padding: 4px 8px;
- 
   border-radius: 5px;
 }
+.footer-content-mobile{
+  display:none;
+  height: 0px;
+}
 
-@media (max-width : 565px){
-  .footer-section-links ul{
-    list-style: none;
-    display: flex;
-    justify-content:flex-start;
-    padding: 0;
-    color: aliceblue;
-    flex-wrap:wrap;
-    position: relative;
-    flex-direction: column;
-
+@media (max-width : 576px){
+  .footer-content{
+    display: none;
   }
-  .footer-section-links{
-    width: 30%;
-    
-  }
-  
-  .footer-section-links ul li{
-    margin-bottom: 3rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 10px;
-    
-  }
-  
-  .footer-section-links ul img{
-    width: 100px;
-    height: 50px;
-    object-fit: cover;
+  .footer-content-mobile{
     display: block;
-    margin: 0 auto;
-    z-index: -1;
-    border-radius: 0%;
-   
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #ffffff;  
+    overflow:visible;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
   }
+ 
   
-  
-  .footer-section-links ul li a{
+  .footer-section-links-mobile ul li a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 95%;
+    font-size: 100%;
     font-weight: 400;
-    padding: 4px 8px;
-    border-radius: 5px;
+  
+    
+
+    
   }
-  
+  .footer-section-links-mobile ul li{
+    margin-left: 0;
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+  }
+  #idx-ul1{
+    width: 25%;
+    float: left;
+  }
+
+  #idx-ul2{
+    width: 25%;
+    float: right;
+  }
+
 }
-  
 
 
   
