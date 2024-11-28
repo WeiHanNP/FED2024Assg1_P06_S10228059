@@ -14,6 +14,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
   background-image: url("resources/BlackB.jpg");
+  backdrop-filter: blur(0px);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -88,6 +89,7 @@ nav ul li a:hover {
 .hamburger-active {
   transform: rotate(45deg);
 }
+/* 45 to make X */
 
 .hamburger-active .line:nth-child(2) {
   width: 0px;
@@ -146,17 +148,18 @@ nav ul li a:hover {
 @media (max-width: 576px) {
   .hamburger {
     display: block;
-  }
+  }  
+  /* show the mobile version */
   nav ul {
     display: none;
   }
+  /* hide the normal version */
 }
 /* Menubar on top*/
 
 /* Photo Gallery */
 
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+
 .mySlides {display: none}
 img {
     vertical-align: middle;
@@ -169,70 +172,6 @@ img {
   position: relative;
   margin: auto;
 }
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: transparent;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
 /* Fading animation */
 .fade {
   animation-name: fade;
@@ -244,10 +183,6 @@ img {
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
   
 /*photo gallery ends here*/
 .idx-header p {
@@ -346,7 +281,11 @@ img {
 }
 
 /*article below*/
-
+.idx-introduction-back{
+  width: 80%;
+  background-color: transparent;
+  margin: 0 auto;
+}
 
 .flex-contain {
   display: flex;
@@ -361,11 +300,10 @@ img {
 
 #idx-flex-first{
   background-color: none;
-  width: 60vh;
+  width: 50vh;
   height: 300px;
   margin: 10px;
   border-radius: 5px;
-  border : 1px solid #ffffff;
   margin-left: 30px;
 }
 #idx-flex-first img{
@@ -374,6 +312,7 @@ img {
   object-fit:fill;
   border-radius: 50%;
   float: left;
+  border: 2px solid #ffffff;
 }
 #idx-flex-first h1{
   color: #ffffff;
@@ -396,11 +335,11 @@ img {
 
 #idx-flex-second{
   background-color: none;
-  width: 60vh;
+  width: 50vh;
   height: 300px;
   margin: 10px;
   border-radius: 5px;
-  border : 1px solid #ffffff;
+  
   margin-left: 30px;
 }
 #idx-flex-second img{
@@ -409,6 +348,7 @@ img {
   object-fit:fill;
   border-radius: 50%;
   float: left;
+  border: 2px solid #ffffff;
 }
 #idx-flex-second h1{
   color: #ffffff;
@@ -431,11 +371,11 @@ img {
 
 #idx-flex-third{
   background-color: none;
-  width: 60vh;
+  width: 50vh;
   height: 300px;
   margin: 10px;
   border-radius: 5px;
-  border : 1px solid #ffffff;
+  
   margin-left: 30px;
 }
 #idx-flex-third img{
@@ -444,6 +384,7 @@ img {
   object-fit:fill;
   border-radius: 50%;
   float: left;
+  border: 2px solid #ffffff;
 }
 #idx-flex-third h1{
   color: #ffffff;
@@ -466,11 +407,11 @@ img {
 
 #idx-flex-forth{
   background-color: none;
-  width: 60vh;
+  width: 50vh;
   height: 300px;
   margin: 10px;
   border-radius: 5px;
-  border : 1px solid #ffffff;
+  
   margin-left: 30px;
 }
 #idx-flex-forth img{
@@ -479,6 +420,7 @@ img {
   object-fit:fill;
   border-radius: 50%;
   float: left;
+  border: 2px solid #ffffff;
 }
 #idx-flex-forth h1{
   color: #ffffff;
@@ -502,11 +444,11 @@ img {
 
 #idx-flex-fifth{
   background-color: none;
-  width: 60vh;
+  width: 50vh;
   height: 300px;
   margin: 10px;
   border-radius: 5px;
-  border : 1px solid #ffffff;
+  
   margin-left: 30px;
 }
 #idx-flex-fifth img{
@@ -515,6 +457,7 @@ img {
   object-fit:fill;
   border-radius: 50%;
   float: left;
+  border: 2px solid #ffffff;
 }
 #idx-flex-fifth h1{
   color: #ffffff;
@@ -591,7 +534,7 @@ img {
     font-size: 30px;
     border-radius: 10px;
     
-    border: 1px solid #ffffff;
+    
     
     
   }
@@ -650,7 +593,6 @@ img {
 .tl-flex-info div h2{
   color: #000;
   font-size: 30px;
-  text-align: left;
   width:fit-content;
   padding: 10px;
   background-color: #ffffff;
@@ -659,6 +601,9 @@ img {
   font-family: "Micro 5 Charted", sans-serif;
   font-weight: 400;
   font-style: normal;
+  letter-spacing: 5px;
+  text-align: center;
+
    
   
   
@@ -681,6 +626,7 @@ img {
   border-radius: 10%;
   position: relative;
   font-family:"Raleway", sans-serif;
+  
   
   }
 
@@ -1005,6 +951,17 @@ img {
 /*Members page ends here*/
 
 /*idv member page starts here*/
+.idv-whole-page{
+  width: 90%;
+  margin: auto;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  
+  
+}
+
+
 .idv-section1{
   width: 15%;
   height: 700px;
@@ -1013,6 +970,7 @@ img {
   color: #ffffff;  
   border-bottom-right-radius: 5px;
   overflow: hidden;
+  display: block;
   
   
 }
@@ -1030,14 +988,18 @@ img {
 }
 
 .idv-section2{
-  width: 74%;
-  height: 100vh;
+  width: 75%;
+  height: 100%;
   background-color: transparent;
   color: #ffffff;
-  float : center;
   margin-left: 5%; 
   margin-right: 5%;
   border-radius: 5px;
+  float: right;
+  display: block;
+
+
+
   
 }
 .idv-section2 h2{
@@ -1053,21 +1015,24 @@ img {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  text-align: center;
+  
 }
 
 #idv-container-section2{
   display:flex;
   flex-wrap: wrap;
-  height: 80%;
-  width: 100%;
+  height: 100%;
+  width: auto;
   align-content:space-between;
   position:absolute;
   background-color: transparent;
   justify-content: center;
+  float: right;
 }
 
 .idv-container-first{
- width: 50vh;
+ width: 40vh;
  height: max-content;
  background-color: transparent;
  margin: 4vh;
@@ -1076,14 +1041,14 @@ img {
 
 
 .idv-container-second{
-  width: 50vh;
+  width: 40vh;
   height: max-content;
   background-color: transparent;
   margin: 4vh;
 }
 
 .idv-container-third{
-  width: 50vh;
+  width: 40vh;
   height: max-content;
   background-color: transparent;
   margin: 4vh;
@@ -1165,7 +1130,7 @@ img {
     height: 100%;
     width: 100%;
     align-content:space-between;
-    position:absolute;
+    
     background-color: transparent;
     justify-content: center;
   }
@@ -1475,6 +1440,110 @@ ol.alternating-colors {
 
 }
 
+.footer-section-about{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #ffffff;  
+  overflow: hidden;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  
+}
+
+.footer-section-links ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  color: aliceblue;
+
+
+  
+
+}
+.footer-section-links ul li{
+  margin-left: 3rem;
+  
+  text-decoration: none;
+
+
+}
+.footer-section-links ul img{
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  z-index: -1;
+  border-radius: 0%;
+  float: left;
+
+}
+
+
+.footer-section-links ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 95%;
+  font-weight: 400;
+  padding: 4px 8px;
+ 
+  border-radius: 5px;
+}
+
+@media (max-width : 565px){
+  .footer-section-links ul{
+    list-style: none;
+    display: flex;
+    justify-content:flex-start;
+    padding: 0;
+    color: aliceblue;
+    flex-wrap:wrap;
+    position: relative;
+    flex-direction: column;
+
+  }
+  .footer-section-links{
+    width: 30%;
+    
+  }
+  
+  .footer-section-links ul li{
+    margin-bottom: 3rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    
+  }
+  
+  .footer-section-links ul img{
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    z-index: -1;
+    border-radius: 0%;
+   
+  }
+  
+  
+  .footer-section-links ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 95%;
+    font-weight: 400;
+    padding: 4px 8px;
+    border-radius: 5px;
+  }
+  
+}
   
 
 
