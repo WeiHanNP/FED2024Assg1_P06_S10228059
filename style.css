@@ -13,10 +13,11 @@
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background-image: url("resources/BlackB.jpg");
+  background-image: url("resources/BlackB2.png");
   backdrop-filter: blur(0px);
   background-size: cover;
   background-attachment: fixed;
+  
 }
 
 
@@ -187,7 +188,7 @@ img {
 /*photo gallery ends here*/
 .idx-header p {
   font-size: 100px;
-  color: #ffffff13;
+  color: #ffffff3c;
   text-align:center;
   letter-spacing: 100px;
   margin-left: 35px;
@@ -197,7 +198,7 @@ img {
 
 .idx-header2 p {
   font-size: 100px;
-  color: #ffffff13;
+  color: #ffffff3c;
   text-align: center;
   letter-spacing: 100px;
   margin-left: 35px;
@@ -278,6 +279,8 @@ img {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  
+  
 }
 
 /*article below*/
@@ -291,10 +294,11 @@ img {
   display: flex;
   flex-wrap: wrap;
   height: auto;
-  align-content: flex-start; 
+  align-content: space-around;
   background-color: none;
   justify-content: center;
   flex: none;
+  
   
 }
 
@@ -484,7 +488,7 @@ img {
 .flex-contain div{
   background-color: none;
   width: 45%;
-  height: 300px;
+  height: auto;
   margin: 10px;
   border-radius: 5px;
   
@@ -640,6 +644,12 @@ img {
     background: linear-gradient(to bottom, #54b9f3 0%, #f4f6f9 100%);
     z-index: -3;
     position:fixed;
+    
+  
+  }
+  .tl-spacer{
+    height: 70px;
+    width: 100%;
     
   
   }
@@ -1454,11 +1464,13 @@ footer{
 }
 
 
+
 .footer-content{
   background-color: black;
   height: min-content;
   width: 100%;
   height: 80px;
+  position: absolute;
   
 }
 
@@ -1476,9 +1488,7 @@ footer{
 
 }
 
-.footer-section-links{
-  height: min-content;
-}
+
 
 
 .footer-section-links ul li{
@@ -1490,8 +1500,8 @@ footer{
 
 }
 .footer-section-links ul img{
-  width: 100px;
-  height: 50px;
+  width: 70px;
+  height: 30px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
@@ -1499,14 +1509,13 @@ footer{
   border-radius: 0%;
   float: left;
   
-
 }
 
 
 .footer-section-links ul li a{
   text-decoration: none;
   color: #ffffff;
-  font-size: 95%;
+  font-size: 50%;
   font-weight: 400;
   border-radius: 5px;
 }
