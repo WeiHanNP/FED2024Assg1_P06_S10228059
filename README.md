@@ -17,6 +17,15 @@ Get to know the Band members, explore their profiles in detailed, including thei
 
 # Design Process
 
+## Initial idea & Concept
+The design concept is to replicate the atmosphere of a live concert, take in a bold colour scheme that have the energy and mood of a concert setting.
+To make the user experience the website will feature a smooth and buttery navigation acroess all pages and also ensuring user can easily explore the content of all pages.
+##### Technology will be using
+
+
+
+
+
 
 
 
