@@ -25,9 +25,9 @@ To make the user experience the website will feature a smooth and buttery naviga
 The project will use responsive web design techniques to provides seamless accessiblity and fuctionality on both mobile and desktop users, with the help of CSS, HTML, and JavaScript, to create a dynamic and adaptive layout that adjusts to different screen sizes and resolutions.
 
 ### Additional Items➕
-Additional design elements, such as the animated transitions and interactive features, will be implemented to further engage users and simulate the feel of a live event. Overall the goal is to provide & deliver a memorable, user-friendly experience for all visitors.
+Additional design elements, such as the animated transitions and interactive features, will be implemented to further engage users and simulate the feel of a live event. Overall the goal is to provide & deliver a memorable, user-friendly for the visually impaired, and wonderful experience for all visitors.
 
-####Low-Fi Links 🔎
+#### Low-Fi Links 🔎
 https://www.figma.com/design/cyhiTemomvbGwNUjvZfeEQ/%E4%BA%94%E6%9C%88%E5%A4%A9%EF%BC%88MayDay%EF%BC%89?node-id=0-1&t=EjCHSuXx3GbTWm9e-1
 
 
@@ -35,10 +35,29 @@ https://www.figma.com/design/cyhiTemomvbGwNUjvZfeEQ/%E4%BA%94%E6%9C%88%E5%A4%A9%
 ## HomePage
 When entered to the page it will welcome you with artistic design with the concert feeling, the design MAY & DAY with a translucent design simulate a hazy enviroment in a concert. 
 
-####The Blue 五月天 (Mayday) 
+#### The Blue 五月天 (Mayday) 
 using Jaro sans-serif make it feel professional and ideal for formal context, the tag will stick on top when scrolling down until it reaches the slideshows and it will disappear, javascript used in this part.
 
 #### Slideshows
+The slideshow display the group pictures & the latest concert infomation, slideshow will automatically jumps through all the picture, javascript used in this part.
+
+#### Introduction
+Introduction have a series of boxes that showcase brief infomation of the band, such as formation of the band, the band musical style, the cultural impact, achivements & charity efforts. The design using flexbox provided by CSS when the screen size reduces it automatically align the bottom box by box, another feature this part has is when user mouse pointer hover across the info box the background will automatically blur out to let the user have a better visual of the content, this feature able to acheive by using javascript eventlistner.
+
+## Albums Page
+#### Albums selection
+Showcasing the Top 5 albums, picture size increases as the user hover on top of the albums, this albums also act as a selection, user will be able section different album by click on the picture, and it will changes the infomation below. The infomation changing when clicking able to acheive by using javascript eventlistner.
+
+#### Youtube Player & Song titles
+resizable player and showing titles from the album, letting the user know the song titles of the particular album, the design of the song title table is choosen to match CD records backpage when the band take off popularity in 2000s to 2010s.
+
+## Awards Page
+Show infomation the band achieve over the years, with the pictures of them holding the trophy and introduction of the various award they won, user able to scroll to their right to view the various award they won, this scroll right feature is particular challeging, need to use the overflow x & y and display a inline-flex to able to place the info to the right and not down.
+
+##
+
+
+
 
 
 
