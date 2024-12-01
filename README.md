@@ -109,6 +109,17 @@ S10228059@connect.edu.sg
 * Golden Melody Awards : https://en.wikipedia.org/wiki/Golden_Melody_Awards
 * Hito Music Awards : https://www.qad.com.tw/index.php?m=content&c=index&a=show&catid=154&id=57
 
+#### Albums Page 
+* Album 1 : https://www.last.fm/music/%E4%BA%94%E6%9C%88%E5%A4%A9/%E4%BA%94%E6%9C%88%E5%A4%A9%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%88%9B%E4%BD%9C%E4%B8%93%E8%BE%91
+* Album 2 : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.popdaily.com.tw%2Fforum%2Flife%2F968347&psig=AOvVaw1aGPx7SfpFs9xc-TR3DdcC&ust=1733135245703000&source=images&cd=vfe&opi=89978449&ved=0CBIQ3YkBahcKEwiwi-mHroaKAxUAAAAAHQAAAAAQBA
+* Album 3 : https://www.yesasia.com/us/time-machine-2cd/1002900877-0-0-0-en/info.html
+* Album 4 : https://www.yesasia.com/global/born-to-love-cd-dvd/1004641828-0-0-0-en/info.html
+* Album 5 : https://genius.com/Mayday-twn-suddenly-i-miss-you-lyrics/q/release-date
+
+#### Navigation
+Borrowed-idea: https://codesandbox.io/p/sandbox/responsive-navbar-html-css-js-1t4um7
+#### List @ Albums page
+Borrowed-idea: https://codepen.io/mattc0m/pen/rNdMjKX
 
 
 
