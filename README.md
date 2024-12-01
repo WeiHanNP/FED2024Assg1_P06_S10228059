@@ -86,8 +86,28 @@ S10228059@connect.edu.sg
 #### Nav & Footer
 * Band Logo: https://work.sj33.cn/181.html
 
-#### 
+#### HomePage
+* Slideshow 1: https://www.hk01.com/%E6%95%B8%E7%A2%BC%E7%94%9F%E6%B4%BB/1074246/%E4%BA%94%E6%9C%88%E5%A4%A925%E9%80%B1%E5%B9%B4%E5%B7%A1%E8%BF%B4%E6%BC%94%E5%94%B1%E6%9C%832025%E8%B7%A8%E5%B9%B4%E6%BC%94%E5%94%B1%E6%9C%83-%E9%87%8B%E7%A5%A8%E6%94%BB%E7%95%A5-%E5%BA%A7%E4%BD%8D%E8%A1%A8-%E9%80%A3%E7%B5%90
+* Slideshow 2: https://zh.wikipedia.org/zh-cn/%E4%BA%94%E6%9C%88%E5%A4%A9
+* SlideShow 3: https://flipermag.com/2013/05/01/taiwan-pride-mayday/
 
+* infomation 1: https://flipermag.com/2013/05/01/taiwan-pride-mayday/
+* infomation 2: https://www.istockphoto.com/vector/vector-school-of-music-musical-theatre-kindergarten-children-with-music-instruments-gm899318272-248156875
+* infomation 3: https://medium.com/@larryczerwonka
+* infomation 4: https://www.flaticon.com/free-icon/trophy_342252
+* infomation 5: https://www.shutterstock.com/image-vector/donation-box-poster-donate-lettering-coin-1338933227
+
+#### Members Page 
+* Monster: https://en.m.wikipedia.org/wiki/File:%E4%BA%94%E6%9C%88%E5%A4%A9-%E6%80%AA%E7%8D%B8_%285247925751%29.jpg
+* Stone : https://www.threads.net/@chiiiii.523/post/C7RFD6iy7Gj/%E6%BA%AB%E5%B0%9A%E7%BF%8A%E5%B0%B1%E6%98%AF%E9%A3%AF%E6%92%92%E7%9A%84%E7%A5%9E-%E5%9C%96%E6%BA%90ay_shuu
+*  Ashin : https://en.m.wikipedia.org/wiki/File:%E4%BA%94%E6%9C%88%E5%A4%A9-%E9%98%BF%E4%BF%A1_%285247928809%29.jpg
+*  Masa : https://kknews.cc/zh-cn/news/ymx3meg.html
+*  Guan Yu : https://slide.ent.sina.com.cn/image_4_703_14454.html
+
+#### Awards Page 
+* band hold awards : https://www.theborneopost.com/2012/06/25/taiwan-rock-band-mayday-sweep-music-awards/
+* Golden Melody Awards : https://en.wikipedia.org/wiki/Golden_Melody_Awards
+* Hito Music Awards : https://www.qad.com.tw/index.php?m=content&c=index&a=show&catid=154&id=57
 
 
 
