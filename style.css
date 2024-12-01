@@ -797,7 +797,7 @@ img {
   background: #000;
   width: 100%;
   justify-content: space-between;
-  position: fixed;
+  position:sticky;
   top: 0;
   overflow:visible;
   
