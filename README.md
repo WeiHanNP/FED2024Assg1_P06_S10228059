@@ -68,7 +68,7 @@ This page is designed to get the nostalgic feel of a mid-2000s blog. It features
 
 
 
-## JavaScript
+## 🪛JavaScript⚙
 
 #### Index Page
 * The Blue MayDay header uses an eventlistener to make it disappear when the user scrolls down to the slideshows.
@@ -82,7 +82,7 @@ There is too much information to be displayed on one page. To address this, I cr
 Please email me, if the website has issue or bug.
 S10228059@connect.edu.sg
 
-## Credits
+## Credits🙏
 
 ### Background Image
 - Source: [Pinterest](https://www.pinterest.com/pin/586523551466628076/)
