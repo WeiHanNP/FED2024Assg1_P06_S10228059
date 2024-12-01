@@ -63,10 +63,34 @@ This page is simple connecting page, dislaying picture for each members user can
 ## Individual Member Page
 This page is designed to get the nostalgic feel of a mid-2000s blog. It features a picture prominently on the left, with personal information displayed beneath it, and detailed sections about the person's early life and education on the right,all styled in a way reminiscent of that era's web design where the internet is a new thing for everyone.
 
-####Additional
+#### Additional
  In addition, users can experience the call to action to visit the members' social media pages.
 
- 
+
+
+##JavaScript
+
+####Index Page
+* The Blue MayDay header uses an eventlistener to make it disappear when the user scrolls down to the slideshows.
+* Slideshows using the setTimeout, it will the picture every 4seconds
+* Blurred background using the eventlistener mouseover, user hover over the area the background is automatically blurred. when user of the area the background will change back to normal.
+
+#### Album Page
+There is too much information to be displayed on one page. To address this, I created an interactive album that allows users to select the album they are interested in. When a user clicks on an album image, the onclick event built into HTML calls the changeAlbum function. This function first disables all information and then gets the ID from the HTML.
+
+##Contact me
+Please email me, if the website has issue or bug.
+S10228059@connect.edu.sg
+
+##Credits
+#### Nav & Footer
+* Band Logo: https://work.sj33.cn/181.html
+
+#### 
+
+
+
+
 
 
  
