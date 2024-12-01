@@ -55,9 +55,21 @@ resizable player and showing titles from the album, letting the user know the so
 Show infomation the band achieve over the years, with the pictures of them holding the trophy and introduction of the various award they won, user able to scroll to their right to view the various award they won, this scroll right feature is particular challeging, need to use the overflow x & y and display a inline-flex to able to place the info to the right and not down.
 
 ## TimeLine Page 
-This page highlighting the band's journey and growth from their formation to the release of their latest album. user able to hover on top of the paragraph and the dark container will appeard and providing the user more readability.
+This page highlighting the band's journey and growth from their formation to the release of their latest album. user able to hover on top of the paragraph and the dark container will appeard and providing the user more readability and depth of field feeling.
+
+## Members Page
+This page is simple connecting page, dislaying picture for each members user can hover and the pictures & name will be highlighted, by clicking it will bring you the to individual page for each member.
+
+## Individual Member Page
+This page is designed to get the nostalgic feel of a mid-2000s blog. It features a picture prominently on the left, with personal information displayed beneath it, and detailed sections about the person's early life and education on the right,all styled in a way reminiscent of that era's web design where the internet is a new thing for everyone.
+
+####Additional
+ In addition, users can experience the call to action to visit the members' social media pages.
+
+ 
 
 
+ 
 
 
 
