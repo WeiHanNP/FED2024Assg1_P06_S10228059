@@ -78,11 +78,11 @@ This page is designed to get the nostalgic feel of a mid-2000s blog. It features
 #### Album Page
 There is too much information to be displayed on one page. To address this, I created an interactive album that allows users to select the album they are interested in. When a user clicks on an album image, the onclick event built into HTML calls the changeAlbum function. This function first disables all information and then gets the ID from the HTML.
 
-##Contact me
+## Contact me
 Please email me, if the website has issue or bug.
 S10228059@connect.edu.sg
 
-##Credits
+## Credits
 #### Nav & Footer
 * Band Logo: https://work.sj33.cn/181.html
 
