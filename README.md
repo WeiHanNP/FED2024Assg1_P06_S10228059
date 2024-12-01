@@ -83,6 +83,8 @@ Please email me, if the website has issue or bug.
 S10228059@connect.edu.sg
 
 ## Credits
+#### Background Image
+https://www.pinterest.com/pin/586523551466628076/
 #### Nav & Footer
 * Band Logo: https://work.sj33.cn/181.html
 
