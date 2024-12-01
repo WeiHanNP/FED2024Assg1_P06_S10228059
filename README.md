@@ -54,7 +54,8 @@ resizable player and showing titles from the album, letting the user know the so
 ## Awards Page
 Show infomation the band achieve over the years, with the pictures of them holding the trophy and introduction of the various award they won, user able to scroll to their right to view the various award they won, this scroll right feature is particular challeging, need to use the overflow x & y and display a inline-flex to able to place the info to the right and not down.
 
-## 
+## TimeLine Page 
+This page highlighting the band's journey and growth from their formation to the release of their latest album. user able to hover on top of the paragraph and the dark container will appeard and providing the user more readability.
 
 
 
