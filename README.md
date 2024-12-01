@@ -68,9 +68,9 @@ This page is designed to get the nostalgic feel of a mid-2000s blog. It features
 
 
 
-##JavaScript
+## JavaScript
 
-####Index Page
+#### Index Page
 * The Blue MayDay header uses an eventlistener to make it disappear when the user scrolls down to the slideshows.
 * Slideshows using the setTimeout, it will the picture every 4seconds
 * Blurred background using the eventlistener mouseover, user hover over the area the background is automatically blurred. when user of the area the background will change back to normal.
