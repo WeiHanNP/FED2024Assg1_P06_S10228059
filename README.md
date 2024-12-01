@@ -63,10 +63,70 @@ This page is simple connecting page, dislaying picture for each members user can
 ## Individual Member Page
 This page is designed to get the nostalgic feel of a mid-2000s blog. It features a picture prominently on the left, with personal information displayed beneath it, and detailed sections about the person's early life and education on the right,all styled in a way reminiscent of that era's web design where the internet is a new thing for everyone.
 
-####Additional
+#### Additional
  In addition, users can experience the call to action to visit the members' social media pages.
 
- 
+
+
+## 🪛JavaScript⚙
+
+#### Index Page
+* The Blue MayDay header uses an eventlistener to make it disappear when the user scrolls down to the slideshows.
+* Slideshows using the setTimeout, it will the picture every 4seconds
+* Blurred background using the eventlistener mouseover, user hover over the area the background is automatically blurred. when user of the area the background will change back to normal.
+
+#### Album Page
+There is too much information to be displayed on one page. To address this, I created an interactive album that allows users to select the album they are interested in. When a user clicks on an album image, the onclick event built into HTML calls the changeAlbum function. This function first disables all information and then gets the ID from the HTML.
+
+## Contact me
+Please email me, if the website has issue or bug.
+S10228059@connect.edu.sg
+
+## Credits🙏
+
+### Background Image
+- Source: [Pinterest](https://www.pinterest.com/pin/586523551466628076/)
+
+### Navigation & Footer
+- Band Logo: [Work SJ33](https://work.sj33.cn/181.html)
+
+### Homepage
+- **Slideshow 1**: [HK01](https://www.hk01.com/%E6%95%B8%E7%A2%BC%E7%94%9F%E6%B4%BB/1074246/%E4%BA%94%E6%9C%88%E5%A4%A925%E9%80%B1%E5%B9%B4%E5%B7%A1%E8%BF%B4%E6%BC%94%E5%94%B1%E6%9C%832025%E8%B7%A8%E5%B9%B4%E6%BC%94%E5%94%B1%E6%9C%83-%E9%87%8B%E7%A5%A8%E6%94%BB%E7%95%A5-%E5%BA%A7%E4%BD%8D%E8%A1%A8-%E9%80%A3%E7%B5%90)
+- **Slideshow 2**: [Wikipedia](https://zh.wikipedia.org/zh-cn/%E4%BA%94%E6%9C%88%E5%A4%A9)
+- **Slideshow 3**: [Flipermag](https://flipermag.com/2013/05/01/taiwan-pride-mayday/)
+
+- **Information 1**: [Flipermag](https://flipermag.com/2013/05/01/taiwan-pride-mayday/)
+- **Information 2**: [iStock](https://www.istockphoto.com/vector/vector-school-of-music-musical-theatre-kindergarten-children-with-music-instruments-gm899318272-248156875)
+- **Information 3**: [Medium](https://medium.com/@larryczerwonka)
+- **Information 4**: [Flaticon](https://www.flaticon.com/free-icon/trophy_342252)
+- **Information 5**: [Shutterstock](https://www.shutterstock.com/image-vector/donation-box-poster-donate-lettering-coin-1338933227)
+
+### Members Page
+- **Monster**: [Wikipedia](https://en.m.wikipedia.org/wiki/File:%E4%BA%94%E6%9C%88%E5%A4%A9-%E6%80%AA%E7%8D%B8_%285247925751%29.jpg)
+- **Stone**: [Threads](https://www.threads.net/@chiiiii.523/post/C7RFD6iy7Gj/%E6%BA%AB%E5%B0%9A%E7%BF%8A%E5%B0%B1%E6%98%AF%E9%A3%AF%E6%92%92%E7%9A%84%E7%A5%9E-%E5%9C%96%E6%BA%90ay_shuu)
+- **Ashin**: [Wikipedia](https://en.m.wikipedia.org/wiki/File:%E4%BA%94%E6%9C%88%E5%A4%A9-%E9%98%BF%E4%BF%A1_%285247928809%29.jpg)
+- **Masa**: [KKNews](https://kknews.cc/zh-cn/news/ymx3meg.html)
+- **Guan Yu**: [Sina](https://slide.ent.sina.com.cn/image_4_703_14454.html)
+
+### Awards Page
+- **Band Hold Awards**: [Borneo Post](https://www.theborneopost.com/2012/06/25/taiwan-rock-band-mayday-sweep-music-awards/)
+- **Golden Melody Awards**: [Wikipedia](https://en.wikipedia.org/wiki/Golden_Melody_Awards)
+- **Hito Music Awards**: [QAD](https://www.qad.com.tw/index.php?m=content&c=index&a=show&catid=154&id=57)
+
+### Albums Page
+- **Album 1**: [Last.fm](https://www.last.fm/music/%E4%BA%94%E6%9C%88%E5%A4%A9/%E4%BA%94%E6%9C%88%E5%A4%A9%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%88%9B%E4%BD%9C%E4%B8%93%E8%BE%91)
+- **Album 2**: [PopDaily](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.popdaily.com.tw%2Fforum%2Flife%2F968347&psig=AOvVaw1aGPx7SfpFs9xc-TR3DdcC&ust=1733135245703000&source=images&cd=vfe&opi=89978449&ved=0CBIQ3YkBahcKEwiwi-mHroaKAxUAAAAAHQAAAAAQBA)
+- **Album 3**: [YesAsia](https://www.yesasia.com/us/time-machine-2cd/1002900877-0-0-0-en/info.html)
+- **Album 4**: [YesAsia](https://www.yesasia.com/global/born-to-love-cd-dvd/1004641828-0-0-0-en/info.html)
+- **Album 5**: [Genius](https://genius.com/Mayday-twn-suddenly-i-miss-you-lyrics/q/release-date)
+
+### Navigation
+- Borrowed Idea: [CodeSandbox](https://codesandbox.io/p/sandbox/responsive-navbar-html-css-js-1t4um7)
+
+### List @ Albums Page
+- Borrowed Idea: [CodePen](https://codepen.io/mattc0m/pen/rNdMjKX)
+
+
 
 
  
