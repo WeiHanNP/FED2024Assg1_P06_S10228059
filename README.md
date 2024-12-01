@@ -54,7 +54,7 @@ resizable player and showing titles from the album, letting the user know the so
 ## Awards Page
 Show infomation the band achieve over the years, with the pictures of them holding the trophy and introduction of the various award they won, user able to scroll to their right to view the various award they won, this scroll right feature is particular challeging, need to use the overflow x & y and display a inline-flex to able to place the info to the right and not down.
 
-##
+## 
 
 
 
